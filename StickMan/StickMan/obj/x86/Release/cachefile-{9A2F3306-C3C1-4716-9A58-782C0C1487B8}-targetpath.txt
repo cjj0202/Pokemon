@@ -1,0 +1,15 @@
+Content\run.xnb
+Content\Backgrounds\background1.xnb
+Content\Backgrounds\background2.xnb
+Content\jump.xnb
+Content\action1.xnb
+Content\action1.wma
+Content\Start.xnb
+Content\GameOver.xnb
+Content\3heart_small.xnb
+Content\heart.xnb
+Content\mine.xnb
+Content\koffing.xnb
+Content\pokemon.xnb
+Content\pokemon.wma
+Content\koffing2.xnb

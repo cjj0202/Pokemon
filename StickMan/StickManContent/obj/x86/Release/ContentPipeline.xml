@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>run.png</Source>
+      <Name>run</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Release\Content\run.xnb</Output>
+      <Time>2014-09-15T09:51:17.0701603-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\background1.jpg</Source>
+      <Name>Backgrounds\background1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Release\Content\Backgrounds\background1.xnb</Output>
+      <Time>2014-09-15T14:23:58.4729348-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\background2.jpg</Source>
+      <Name>Backgrounds\background2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Release\Content\Backgrounds\background2.xnb</Output>
+      <Time>2014-09-15T14:23:58.4749358-04:00</Time>
+    </Item>
+    <Item>
+      <Source>jump.png</Source>
+      <Name>jump</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Release\Content\jump.xnb</Output>
+      <Time>2014-09-16T17:30:22.428319-04:00</Time>
+    </Item>
+    <Item>
+      <Source>action1.mp3</Source>
+      <Name>action1</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Release\Content\action1.xnb</Output>
+      <Extra>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Release\Content\action1.wma</Extra>
+      <Time>2014-09-17T23:25:04.0508789-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Start.jpg</Source>
+      <Name>Start</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Release\Content\Start.xnb</Output>
+      <Time>2014-09-24T22:33:29.7417586-04:00</Time>
+    </Item>
+    <Item>
+      <Source>GameOver.jpg</Source>
+      <Name>GameOver</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Release\Content\GameOver.xnb</Output>
+      <Time>2014-09-24T22:33:29.5904288-04:00</Time>
+    </Item>
+    <Item>
+      <Source>3heart_small.png</Source>
+      <Name>3heart_small</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Release\Content\3heart_small.xnb</Output>
+      <Time>2014-09-25T15:11:00.0017474-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heart.png</Source>
+      <Name>heart</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Release\Content\heart.xnb</Output>
+      <Time>2014-09-25T15:17:40.7804988-04:00</Time>
+    </Item>
+    <Item>
+      <Source>mine.png</Source>
+      <Name>mine</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Release\Content\mine.xnb</Output>
+      <Time>2014-09-25T16:33:23.9279684-04:00</Time>
+    </Item>
+    <Item>
+      <Source>koffing.png</Source>
+      <Name>koffing</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Release\Content\koffing.xnb</Output>
+      <Time>2014-09-25T18:16:05.1504873-04:00</Time>
+    </Item>
+    <Item>
+      <Source>pokemon.mp3</Source>
+      <Name>pokemon</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Release\Content\pokemon.xnb</Output>
+      <Extra>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Release\Content\pokemon.wma</Extra>
+      <Time>2014-09-25T18:44:18.8898642-04:00</Time>
+    </Item>
+    <Item>
+      <Source>koffing2.png</Source>
+      <Name>koffing2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Release\Content\koffing2.xnb</Output>
+      <Time>2014-09-25T21:48:49.75617-04:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Release</BuildConfiguration>
+      <CompressContent>true</CompressContent>
+      <RootDirectory>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickManContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickManContent\obj\x86\Release\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Release\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2014-09-14T14:29:47.8728375-04:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

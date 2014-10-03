@@ -1,0 +1,28 @@
+c:\users\jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\StickMan.exe
+c:\users\jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\StickMan.pdb
+c:\users\jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\obj\x86\Debug\StickMan.csprojResolveAssemblyReference.cache
+c:\users\jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+c:\users\jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\obj\x86\Debug\StickMan.exe
+c:\users\jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\obj\x86\Debug\StickMan.pdb
+C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\action1.xnb
+C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\action1.wma
+C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\GameOver.xnb
+C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\pokemon.xnb
+C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\pokemon.wma
+C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\Arial.xnb
+C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\Pokemon Medley.xnb
+C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\Pokemon Medley.wma
+C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\SoundEffect\punch.xnb
+C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\SoundEffect\pikachu2.xnb
+C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\SoundEffect\chaching.xnb
+C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\Animate\run.xnb
+C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\Animate\3heart_small.xnb
+C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\Animate\heart.xnb
+C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\Animate\koffing2.xnb
+C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\Animate\Pikachu.xnb
+C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\Animate\gengar2.xnb
+C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\Start_Stick.xnb
+C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\Backgrounds\BackGround_1.xnb
+C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\Backgrounds\BackGround_2.xnb
+C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\Backgrounds\BackGround_3.xnb
+C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\Backgrounds\BackGround_4.xnb
