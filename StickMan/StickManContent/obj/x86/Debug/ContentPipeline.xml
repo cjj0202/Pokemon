@@ -12,15 +12,6 @@
       <Time>2014-09-17T23:25:04.0508789-04:00</Time>
     </Item>
     <Item>
-      <Source>GameOver.jpg</Source>
-      <Name>GameOver</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\GameOver.xnb</Output>
-      <Time>2014-09-24T22:33:29.5904288-04:00</Time>
-    </Item>
-    <Item>
       <Source>pokemon.mp3</Source>
       <Name>pokemon</Name>
       <Importer>Mp3Importer</Importer>
@@ -146,7 +137,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\Backgrounds\BackGround_1.xnb</Output>
-      <Time>2014-10-02T20:17:19.4780103-04:00</Time>
+      <Time>2014-10-07T20:10:34.2279473-04:00</Time>
     </Item>
     <Item>
       <Source>Backgrounds\BackGround_2.jpg</Source>
@@ -155,7 +146,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\Backgrounds\BackGround_2.xnb</Output>
-      <Time>2014-10-02T20:17:33.2469548-04:00</Time>
+      <Time>2014-10-07T20:10:34.2931161-04:00</Time>
     </Item>
     <Item>
       <Source>Backgrounds\BackGround_3.jpg</Source>
@@ -164,7 +155,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\Backgrounds\BackGround_3.xnb</Output>
-      <Time>2014-10-02T20:17:33.2489562-04:00</Time>
+      <Time>2014-10-07T20:10:34.2950995-04:00</Time>
     </Item>
     <Item>
       <Source>Backgrounds\BackGround_4.jpg</Source>
@@ -173,7 +164,16 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\Backgrounds\BackGround_4.xnb</Output>
-      <Time>2014-10-02T20:17:33.2509397-04:00</Time>
+      <Time>2014-10-07T20:10:34.2971014-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Game Over.jpg</Source>
+      <Name>Game Over</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\Game Over.xnb</Output>
+      <Time>2014-10-07T20:23:19.1724383-04:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

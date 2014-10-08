@@ -21,7 +21,7 @@ namespace StickMan
         public GameOverScreen(Game1 game)
         {
             this.game = game;
-            texture = game.Content.Load<Texture2D>("GameOver");
+            texture = game.Content.Load<Texture2D>("Game Over");
             lastState = Keyboard.GetState();
             finalScore = new FinalScore();
             finalScore.Font = game.Content.Load<SpriteFont>("Arial");

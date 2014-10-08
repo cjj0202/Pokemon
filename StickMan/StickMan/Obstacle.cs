@@ -82,14 +82,14 @@ namespace StickMan
             dstRect.X -= game.speed;
             if (tg_pos)
             {
-                if (dstRect.Y > 220)
+                if (dstRect.Y > 300)
                     dstRect.Y--;
                 else
                     tg_pos = false;
             }
             if (!tg_pos)
             {
-                if (dstRect.Y < 365)
+                if (dstRect.Y < 435)
                     dstRect.Y++;
                 else
                     tg_pos = true;

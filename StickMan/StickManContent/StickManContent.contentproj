@@ -56,13 +56,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GameOver.jpg">
-      <Name>GameOver</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Animate\3heart_small.png">
       <Name>3heart_small</Name>
       <Importer>TextureImporter</Importer>
@@ -152,8 +145,6 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Backgrounds\BackGround_2.jpg">
       <Name>BackGround_2</Name>
       <Importer>TextureImporter</Importer>
@@ -166,6 +157,13 @@
     </Compile>
     <Compile Include="Backgrounds\BackGround_4.jpg">
       <Name>BackGround_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Game Over.jpg">
+      <Name>Game Over</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>

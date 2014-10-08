@@ -1,6 +1,5 @@
 Content\action1.xnb
 Content\action1.wma
-Content\GameOver.xnb
 Content\pokemon.xnb
 Content\pokemon.wma
 Content\Arial.xnb
@@ -20,3 +19,4 @@ Content\Backgrounds\BackGround_1.xnb
 Content\Backgrounds\BackGround_2.xnb
 Content\Backgrounds\BackGround_3.xnb
 Content\Backgrounds\BackGround_4.xnb
+Content\Game Over.xnb

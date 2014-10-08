@@ -77,7 +77,7 @@ namespace StickMan
             //playing running image and scrolling background
             upKey = ks.IsKeyDown(Keys.Up);
             prevUpKey = prevks.IsKeyDown(Keys.Up);
-            rightRun = new RightRun(game.Content.Load<Texture2D>("Animate/run"), new Rectangle(200, 355, 90,90), sourceRect);
+            rightRun = new RightRun(game.Content.Load<Texture2D>("Animate/run"), new Rectangle(200, 430, 90,90), sourceRect);
             newKoffing.srcRect = newKoffing.Animate(gameTime);
             newGengar.srcRect = newGengar.Animate(gameTime);
 
@@ -88,7 +88,7 @@ namespace StickMan
             }
             else if (trigger)
             {
-                rightRun = new RightRun(game.Content.Load<Texture2D>("Animate/run"), new Rectangle(200, 260, 90, 90), new Rectangle(200, 0, 100, 100));
+                rightRun = new RightRun(game.Content.Load<Texture2D>("Animate/run"), new Rectangle(200, 330, 90, 90), new Rectangle(200, 0, 100, 100));
                 jumpElapsed += (int)gameTime.ElapsedGameTime.TotalMilliseconds;
                 if (jumpElapsed > 1600/game.speed)
                 {
@@ -165,7 +165,7 @@ namespace StickMan
                 scrolling1.rectangle.X = scrolling4.rectangle.X + scrolling4.rectangle.Width;
             }
 
-            if ((newKoffing.dstRect.X >= 201-game.speed) && (newKoffing.dstRect.X <= 200) && (rightRun.dstRect.Y == 355))
+            if ((newKoffing.dstRect.X >= 201 - game.speed) && (newKoffing.dstRect.X <= 200) && (rightRun.dstRect.Y == 430))
            // if ((Math.Abs(newKoffing.dstRect.X - 200) < 40) && (rightRun.dstRect.Y == 280))
             {
                 punchInstance.Play();
@@ -226,22 +226,22 @@ namespace StickMan
 
         private void NewKoffing(int random)
         {
-            newKoffing = new Koffing(game.Content.Load<Texture2D>("Animate/koffing2"), new Rectangle(random, 365, 80, 74), srcKoffingRec);
+            newKoffing = new Koffing(game.Content.Load<Texture2D>("Animate/koffing2"), new Rectangle(random, 435, 80, 74), srcKoffingRec);
         }
 
         private void NewGengar(int random)
         {
-            newGengar = new Gengar(game.Content.Load<Texture2D>("Animate/gengar2"), new Rectangle(random, 365, 90, 74), srcGengarRec);
+            newGengar = new Gengar(game.Content.Load<Texture2D>("Animate/gengar2"), new Rectangle(random, 435, 90, 74), srcGengarRec);
         }
 
         private void NewHeart(int random)
         {
-            newHeart = new Heart(game.Content.Load<Texture2D>("Animate/heart"), new Rectangle(random, 280, 30, 27));
+            newHeart = new Heart(game.Content.Load<Texture2D>("Animate/heart"), new Rectangle(random, 340, 30, 27));
         }
 
         private void NewPica(int random)
         {
-            newPica = new Pica(game.Content.Load<Texture2D>("Animate/Pikachu"), new Rectangle(random, 240, 80, 82));
+            newPica = new Pica(game.Content.Load<Texture2D>("Animate/Pikachu"), new Rectangle(random, 300, 80, 82));
         }
 
         public void Draw(SpriteBatch spriteBatch)
