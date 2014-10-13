@@ -26,6 +26,46 @@ namespace StickMan
         }
     }
 
+    class Heart : Obstacle
+    {
+        public Heart(Texture2D newTexture, Rectangle dstRectangle, Rectangle srcRectangle)
+        {
+            texture = newTexture;
+            srcRect = srcRectangle;
+            dstRect = dstRectangle;
+        }
+
+        public void Update(Game1 game)
+        {
+            dstRect.X -= game.speed;
+        }
+
+        public Rectangle Animate(GameTime gameTime)
+        {
+            return srcRect = new Rectangle(0, 0, 30, 30);
+        }
+    }
+
+    class Pica : Obstacle
+    {
+        public Pica(Texture2D newTexture, Rectangle dstRectangle, Rectangle srcRectangle)
+        {
+            texture = newTexture;
+            srcRect = srcRectangle;
+            dstRect = dstRectangle;
+        }
+
+        public void Update(Game1 game)
+        {
+            dstRect.X -= game.speed;
+        }
+
+        public Rectangle Animate(GameTime gameTime)
+        {
+            return srcRect = new Rectangle(0, 0, 80, 82);
+        }
+    }
+
     class Koffing : Obstacle
     {
         int framesKoffing = 0;
@@ -41,7 +81,14 @@ namespace StickMan
 
         public void Update(Game1 game)
         {
-            dstRect.X -= game.speed;   
+
+            if (dstRect.Y < 435)
+            {
+                dstRect.Y++;
+                dstRect.X -= 1;
+            }
+            else
+                dstRect.X -= game.speed;
 
         }
 
@@ -117,5 +164,30 @@ namespace StickMan
             return srcRect = new Rectangle(framesGengar * 80, 0, 80, 74);
         }
     }
+
+    class Balloon : Obstacle
+    {
+        public Balloon(Texture2D newTexture, Rectangle dstRectangle, Rectangle srcRectangle)
+        {
+            texture = newTexture;
+            srcRect = srcRectangle;
+            dstRect = dstRectangle;
+        }
+
+        public Rectangle Animate(GameTime gameTime)
+        {
+            return srcRect = new Rectangle(0, 0, 100, 100);
+        }
+
+        public void Update(Game1 game, Pica picachu)
+        {
+            dstRect.X += 1;
+            if ((dstRect.Y < picachu.dstRect.Y) && (picachu.dstRect.X < 1024)) //if picachu appears and balloon is higher than picachu
+            {
+                dstRect.Y += 1;
+            }
+        }
+    }
+
 
 }

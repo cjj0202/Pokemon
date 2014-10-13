@@ -2,16 +2,6 @@
 <XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
   <Asset Type="Pipeline:BuildItemCollection">
     <Item>
-      <Source>action1.mp3</Source>
-      <Name>action1</Name>
-      <Importer>Mp3Importer</Importer>
-      <Processor>SongProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\action1.xnb</Output>
-      <Extra>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\action1.wma</Extra>
-      <Time>2014-09-17T23:25:04.0508789-04:00</Time>
-    </Item>
-    <Item>
       <Source>pokemon.mp3</Source>
       <Name>pokemon</Name>
       <Importer>Mp3Importer</Importer>
@@ -175,16 +165,34 @@
       <Output>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\Game Over.xnb</Output>
       <Time>2014-10-07T20:23:19.1724383-04:00</Time>
     </Item>
+    <Item>
+      <Source>Animate\balloon.png</Source>
+      <Name>Animate\balloon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jiajie\Documents\Visual Studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\Animate\balloon.xnb</Output>
+      <Time>2014-10-10T15:13:53.7978943-04:00</Time>
+    </Item>
+    <Item>
+      <Source>SoundEffect\pikasad.wav</Source>
+      <Name>SoundEffect\pikasad</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jiajie\Documents\Visual Studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\SoundEffect\pikasad.xnb</Output>
+      <Time>2014-10-10T16:24:13.1923418-04:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickManContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickManContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Jiajie\Documents\Visual Studio 2012\Projects\StickMan\StickMan\StickManContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Jiajie\Documents\Visual Studio 2012\Projects\StickMan\StickMan\StickMan\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Jiajie\Documents\Visual Studio 2012\Projects\StickMan\StickMan\StickManContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Jiajie\Documents\Visual Studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
