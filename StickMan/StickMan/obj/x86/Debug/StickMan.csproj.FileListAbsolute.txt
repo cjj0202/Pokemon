@@ -1,6 +1,5 @@
 c:\users\jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\StickMan.exe
 c:\users\jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\StickMan.pdb
-c:\users\jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\obj\x86\Debug\StickMan.csprojResolveAssemblyReference.cache
 c:\users\jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 c:\users\jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\obj\x86\Debug\StickMan.exe
 c:\users\jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\obj\x86\Debug\StickMan.pdb
@@ -21,8 +20,12 @@ C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan
 C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\Start_Stick.xnb
 C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\Backgrounds\BackGround_1.xnb
 C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\Backgrounds\BackGround_2.xnb
-C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\Backgrounds\BackGround_3.xnb
-C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\Backgrounds\BackGround_4.xnb
 C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\Game Over.xnb
 C:\Users\Jiajie\Documents\Visual Studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\Animate\balloon.xnb
 C:\Users\Jiajie\Documents\Visual Studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\SoundEffect\pikasad.xnb
+C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\GameOver.xnb
+C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\StickMan.exe.manifest
+C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\StickMan.application
+C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\obj\x86\Debug\StickMan.exe.manifest
+C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\obj\x86\Debug\StickMan.application
+C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\obj\x86\Debug\StickMan.csprojResolveAssemblyReference.cache

@@ -1,11 +1,3 @@
-Content\pokemon.xnb
-Content\pokemon.wma
-Content\Arial.xnb
-Content\Pokemon Medley.xnb
-Content\Pokemon Medley.wma
-Content\SoundEffect\punch.xnb
-Content\SoundEffect\pikachu2.xnb
-Content\SoundEffect\chaching.xnb
 Content\Animate\run.xnb
 Content\Animate\3heart_small.xnb
 Content\Animate\heart.xnb
@@ -15,8 +7,15 @@ Content\Animate\gengar2.xnb
 Content\Start_Stick.xnb
 Content\Backgrounds\BackGround_1.xnb
 Content\Backgrounds\BackGround_2.xnb
-Content\Backgrounds\BackGround_3.xnb
-Content\Backgrounds\BackGround_4.xnb
 Content\Game Over.xnb
 Content\Animate\balloon.xnb
+Content\pokemon.xnb
+Content\pokemon.wma
+Content\Pokemon Medley.xnb
+Content\Pokemon Medley.wma
+Content\Arial.xnb
+Content\GameOver.xnb
+Content\SoundEffect\punch.xnb
+Content\SoundEffect\pikachu2.xnb
+Content\SoundEffect\chaching.xnb
 Content\SoundEffect\pikasad.xnb

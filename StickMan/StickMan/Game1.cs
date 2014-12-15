@@ -31,10 +31,10 @@ namespace StickMan
         GameOverScreen gameOverScreen;
         Screen currentScreen;
         public int score = 0;
-        public int speed = 3; // from 1-6
+        public int speed = 3; // initial spped
         public int highScore = 0; 
 
-        public Game1()
+        public Game1() //game window size
         {
             graphics = new GraphicsDeviceManager(this);
             graphics.IsFullScreen = false;
@@ -71,7 +71,7 @@ namespace StickMan
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
 
-            // TODO: Add your update logic here
+            // Three game screen switch case
             switch (currentScreen)
             {
                 case Screen.StartScreen:
@@ -96,7 +96,7 @@ namespace StickMan
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
-            // TODO: Add your drawing code here
+            // Draw current screen
             spriteBatch.Begin();
 
             switch (currentScreen)

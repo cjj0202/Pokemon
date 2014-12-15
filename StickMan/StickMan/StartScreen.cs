@@ -21,6 +21,8 @@ namespace StickMan
         public StartScreen(Game1 game)
         {
             this.game = game;
+
+            //load background and play music
             texture = game.Content.Load<Texture2D>("Start_Stick");
             Song song2 = game.Content.Load<Song>("pokemon");
             MediaPlayer.Play(song2);

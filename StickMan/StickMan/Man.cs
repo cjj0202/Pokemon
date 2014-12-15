@@ -18,7 +18,7 @@ namespace StickMan
         public Rectangle srcRect;
         int framesRun = 0;
         float elapsedRun;
-        float delayRun = 80f;
+        float delayRun = 80f;  //interval between two motions
 
         public void Draw(SpriteBatch spriteBatch)
         {
@@ -36,6 +36,7 @@ namespace StickMan
         {
         }
 
+        //Play 6 motions in a loop
         public Rectangle Run(GameTime gameTime)
         {
             elapsedRun += (float)gameTime.ElapsedGameTime.TotalMilliseconds;

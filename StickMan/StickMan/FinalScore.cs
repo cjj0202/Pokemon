@@ -29,7 +29,7 @@ namespace StickMan
                 Font,                          // SpriteFont
                 "Final Score: " + Score.ToString(),  // Text
                 scorePos,                      // Position
-                Color.Black);                  // Tint
+                Color.Black);                  
         }
     }
 }

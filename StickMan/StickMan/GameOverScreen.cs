@@ -24,13 +24,13 @@ namespace StickMan
             texture = game.Content.Load<Texture2D>("Game Over");
             lastState = Keyboard.GetState();
             finalScore = new FinalScore();
-            finalScore.Font = game.Content.Load<SpriteFont>("Arial");
-            finalScore.Score = game.score;
+            finalScore.Font = game.Content.Load<SpriteFont>("GameOver");
+            finalScore.Score = game.score;        //final score
             game.score = 0;
             Console.WriteLine("High:"+game.highScore);
         }
 
-        public void Update()
+        public void Update()  //Read input key to exit or restart
         {
             KeyboardState keyboardState = Keyboard.GetState();
 

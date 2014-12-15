@@ -2,62 +2,6 @@
 <XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
   <Asset Type="Pipeline:BuildItemCollection">
     <Item>
-      <Source>pokemon.mp3</Source>
-      <Name>pokemon</Name>
-      <Importer>Mp3Importer</Importer>
-      <Processor>SongProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\pokemon.xnb</Output>
-      <Extra>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\pokemon.wma</Extra>
-      <Time>2014-09-25T18:44:18.8898642-04:00</Time>
-    </Item>
-    <Item>
-      <Source>Arial.spritefont</Source>
-      <Name>Arial</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\Arial.xnb</Output>
-      <Time>2014-09-26T00:16:09.2220664-04:00</Time>
-    </Item>
-    <Item>
-      <Source>Pokemon Medley.mp3</Source>
-      <Name>Pokemon Medley</Name>
-      <Importer>Mp3Importer</Importer>
-      <Processor>SongProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\Pokemon Medley.xnb</Output>
-      <Extra>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\Pokemon Medley.wma</Extra>
-      <Time>2014-09-30T15:33:38.84827-04:00</Time>
-    </Item>
-    <Item>
-      <Source>SoundEffect\punch.wav</Source>
-      <Name>SoundEffect\punch</Name>
-      <Importer>WavImporter</Importer>
-      <Processor>SoundEffectProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\SoundEffect\punch.xnb</Output>
-      <Time>2014-09-30T15:48:42.3578509-04:00</Time>
-    </Item>
-    <Item>
-      <Source>SoundEffect\pikachu2.wav</Source>
-      <Name>SoundEffect\pikachu2</Name>
-      <Importer>WavImporter</Importer>
-      <Processor>SoundEffectProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\SoundEffect\pikachu2.xnb</Output>
-      <Time>2014-09-30T15:53:08.5436906-04:00</Time>
-    </Item>
-    <Item>
-      <Source>SoundEffect\chaching.wav</Source>
-      <Name>SoundEffect\chaching</Name>
-      <Importer>WavImporter</Importer>
-      <Processor>SoundEffectProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\SoundEffect\chaching.xnb</Output>
-      <Time>2014-09-30T16:43:25.8556884-04:00</Time>
-    </Item>
-    <Item>
       <Source>Animate\run.png</Source>
       <Name>Animate\run</Name>
       <Importer>TextureImporter</Importer>
@@ -118,7 +62,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\Start_Stick.xnb</Output>
-      <Time>2014-10-02T18:57:57.186194-04:00</Time>
+      <Time>2014-12-13T12:36:45.6611662-05:00</Time>
     </Item>
     <Item>
       <Source>Backgrounds\BackGround_1.jpg</Source>
@@ -139,31 +83,13 @@
       <Time>2014-10-07T20:10:34.2931161-04:00</Time>
     </Item>
     <Item>
-      <Source>Backgrounds\BackGround_3.jpg</Source>
-      <Name>Backgrounds\BackGround_3</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\Backgrounds\BackGround_3.xnb</Output>
-      <Time>2014-10-07T20:10:34.2950995-04:00</Time>
-    </Item>
-    <Item>
-      <Source>Backgrounds\BackGround_4.jpg</Source>
-      <Name>Backgrounds\BackGround_4</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\Backgrounds\BackGround_4.xnb</Output>
-      <Time>2014-10-07T20:10:34.2971014-04:00</Time>
-    </Item>
-    <Item>
       <Source>Game Over.jpg</Source>
       <Name>Game Over</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\Game Over.xnb</Output>
-      <Time>2014-10-07T20:23:19.1724383-04:00</Time>
+      <Time>2014-12-13T11:28:46.7549516-05:00</Time>
     </Item>
     <Item>
       <Source>Animate\balloon.png</Source>
@@ -171,8 +97,73 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jiajie\Documents\Visual Studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\Animate\balloon.xnb</Output>
+      <Output>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\Animate\balloon.xnb</Output>
       <Time>2014-10-10T15:13:53.7978943-04:00</Time>
+    </Item>
+    <Item>
+      <Source>pokemon.mp3</Source>
+      <Name>pokemon</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\pokemon.xnb</Output>
+      <Extra>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\pokemon.wma</Extra>
+      <Time>2014-09-25T18:44:18.8898642-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Pokemon Medley.mp3</Source>
+      <Name>Pokemon Medley</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\Pokemon Medley.xnb</Output>
+      <Extra>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\Pokemon Medley.wma</Extra>
+      <Time>2014-09-30T15:33:38.84827-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Arial.spritefont</Source>
+      <Name>Arial</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\Arial.xnb</Output>
+      <Time>2014-12-13T11:23:35.4591341-05:00</Time>
+    </Item>
+    <Item>
+      <Source>GameOver.spritefont</Source>
+      <Name>GameOver</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\GameOver.xnb</Output>
+      <Time>2014-12-13T11:24:29.4629219-05:00</Time>
+    </Item>
+    <Item>
+      <Source>SoundEffect\punch.wav</Source>
+      <Name>SoundEffect\punch</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\SoundEffect\punch.xnb</Output>
+      <Time>2014-09-30T15:48:42.3578509-04:00</Time>
+    </Item>
+    <Item>
+      <Source>SoundEffect\pikachu2.wav</Source>
+      <Name>SoundEffect\pikachu2</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\SoundEffect\pikachu2.xnb</Output>
+      <Time>2014-09-30T15:53:08.5436906-04:00</Time>
+    </Item>
+    <Item>
+      <Source>SoundEffect\chaching.wav</Source>
+      <Name>SoundEffect\chaching</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\SoundEffect\chaching.xnb</Output>
+      <Time>2014-09-30T16:43:25.8556884-04:00</Time>
     </Item>
     <Item>
       <Source>SoundEffect\pikasad.wav</Source>
@@ -180,7 +171,7 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jiajie\Documents\Visual Studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\SoundEffect\pikasad.xnb</Output>
+      <Output>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\SoundEffect\pikasad.xnb</Output>
       <Time>2014-10-10T16:24:13.1923418-04:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
@@ -189,10 +180,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Jiajie\Documents\Visual Studio 2012\Projects\StickMan\StickMan\StickManContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Jiajie\Documents\Visual Studio 2012\Projects\StickMan\StickMan\StickMan\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Jiajie\Documents\Visual Studio 2012\Projects\StickMan\StickMan\StickManContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Jiajie\Documents\Visual Studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickManContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickManContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Jiajie\documents\visual studio 2012\Projects\StickMan\StickMan\StickMan\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

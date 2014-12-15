@@ -82,7 +82,7 @@ namespace StickMan
         public void Update(Game1 game)
         {
 
-            if (dstRect.Y < 435)
+            if (dstRect.Y < 435)  //before touching the ground
             {
                 dstRect.Y++;
                 dstRect.X -= 1;
@@ -127,6 +127,8 @@ namespace StickMan
         public void Update(Game1 game)
         {
             dstRect.X -= game.speed;
+
+            //moving up and down
             if (tg_pos)
             {
                 if (dstRect.Y > 300)
@@ -152,8 +154,7 @@ namespace StickMan
                 {
                     framesGengar = 0;
                     if(opacity > 0.2)
-                        opacity -= 0.1f;
-                        //Console.WriteLine(opacity);
+                        opacity -= 0.1f; //becoming transparent
                 }
                 else
                 {
@@ -182,7 +183,7 @@ namespace StickMan
         public void Update(Game1 game, Pica picachu)
         {
             dstRect.X += 1;
-            if ((dstRect.Y < picachu.dstRect.Y) && (picachu.dstRect.X < 1024)) //if picachu appears and balloon is higher than picachu
+            if ((dstRect.X >0) && (dstRect.Y < picachu.dstRect.Y) && (picachu.dstRect.X < 1024)) //if picachu appears and balloon is higher than picachu
             {
                 dstRect.Y += 1;
             }

@@ -48,16 +48,20 @@ namespace StickMan
         public GamePlayScreen(Game1 game)
         {
             this.game = game;
+            //Load background image
             scrolling1 = new Scrolling(game.Content.Load<Texture2D>("Backgrounds/BackGround_1"), new Rectangle(0, 0,
                                 game.Window.ClientBounds.Width, game.Window.ClientBounds.Height));
             scrolling2 = new Scrolling(game.Content.Load<Texture2D>("Backgrounds/BackGround_2"), new Rectangle(0, 0,
                                             game.Window.ClientBounds.Width, game.Window.ClientBounds.Height));
             stickMan = new Man(game.Content.Load<Texture2D>("Animate/run"), new Rectangle(200, 430, 90, 90), srcManRec);
-            //NewKoffing(new Random().Next(800, 1000));
+            
+            //Generate Gengar, Heart, Pica at random position
             NewGengar(new Random().Next(1100, 1300));
             NewHeart(new Random().Next(5800, 8000));
             NewPica(new Random().Next(800, 2000));
-            NewBalloon(0);
+            NewBalloon(new Random().Next(-600, -500));
+
+            //Load media resource, generate score
             Song song = game.Content.Load<Song>("Pokemon Medley");
             MediaPlayer.Play(song);
             MediaPlayer.IsRepeating = true;
@@ -68,8 +72,11 @@ namespace StickMan
 
         public void Update(GameTime gameTime)
         {
+            //refresh frequency
             this.game.TargetElapsedTime = TimeSpan.FromSeconds(1.0f / 35.0f);
             this.game.IsFixedTimeStep = false;
+
+            //level up with every 5 scores
             if(this.game.score <5)
             {
                 this.game.speed = 3;
@@ -85,7 +92,9 @@ namespace StickMan
             else
                 this.game.speed = 6;
 
-            ks = Keyboard.GetState();
+            ks = Keyboard.GetState();  //Get keyboard state
+
+            //Load sound effect
             SoundEffect punch;
             punch = game.Content.Load<SoundEffect>("SoundEffect/punch");
             SoundEffectInstance punchInstance = punch.CreateInstance();
@@ -111,7 +120,7 @@ namespace StickMan
             newPica.srcRect = newPica.Animate(gameTime);
             stickMan.srcRect = stickMan.Run(gameTime);
 
-            //UP is just pressed
+            //UP is just pressed, jump
             if (upKey && !prevUpKey)
             {
                 triggerUp = true;
@@ -128,7 +137,7 @@ namespace StickMan
                     jumpElapsed = 0;
                 }
             }
-            //DOWN is just pressed
+            //DOWN is just pressed, crouch
             if (downKey && !prevDownKey)
             {
                 triggerDown = true;
@@ -143,14 +152,13 @@ namespace StickMan
                 {
                     triggerDown = false;
                     stickMan.dstRect = new Rectangle(200, 430, 90, 90);
-                    //stickMan.dstRect.Y = 430;
                     jumpElapsed = 0;
                 }
             }
 
             prevks = ks;
 
-
+            //if object is out of screen range, generate a new one
             if (newGengar.dstRect.X < 0)
             {
                 NewGengar(new Random().Next(1200, 1400));               
@@ -169,9 +177,10 @@ namespace StickMan
 
             if (newBalloon.dstRect.X > 1024)
             {
-                NewBalloon(0);
+                NewBalloon(new Random().Next(-1000, 0));
             }
 
+            //scrolling background
             if (scrolling1.rectangle.X + scrolling1.rectangle.Width <= 1024)
             {
                 scrolling2.rectangle.X = scrolling1.rectangle.X + scrolling1.rectangle.Width;
@@ -182,6 +191,7 @@ namespace StickMan
                 scrolling1.rectangle.X = scrolling2.rectangle.X + scrolling2.rectangle.Width;
             }
 
+            //Hit Gengar
             if ((newGengar.dstRect.X >= 201 - game.speed) && (newGengar.dstRect.X <= 200) &&
                 (newGengar.dstRect.Y + 60 > stickMan.dstRect.Y) && !((stickMan.dstRect.Y + 70) < newGengar.dstRect.Y))
             {
@@ -191,6 +201,7 @@ namespace StickMan
                     game.EndGame();
             }
 
+            //Hit Heart
             if ((newHeart.dstRect.X >= 201 - game.speed) && (newHeart.dstRect.X <= 200) && triggerUp)
             {
                 if (lives < 3)
@@ -201,6 +212,7 @@ namespace StickMan
                 }
             }
 
+            //Hit Picachu
             if ((newPica.dstRect.X >= 201 - game.speed) && (newPica.dstRect.X <= 200) && triggerUp && picaIsNotHit)
             {
                 pikachuInstance.Play();
@@ -210,14 +222,19 @@ namespace StickMan
                 game.score = gameScore.gScore;
                 picaIsNotHit = false;
             }
+
+            //Ballon
             if (newBalloon != null)
             {
+                //Catch Picachu successfully
                 if (((newPica.dstRect.X <1024) && (newPica.dstRect.X > 0)) && (newBalloon.dstRect.X - 3 <= newPica.dstRect.X) 
                     && (newBalloon.dstRect.X >= newPica.dstRect.X) && newBalloon.dstRect.Y >= newPica.dstRect.Y)
                 {
                     pikasadInstance.Play();
                     picaIsNotHit = false;
                 }
+
+                //Fail to catch, drop a Koffing
                 else if ((newBalloon.dstRect.X >= newPica.dstRect.X) && (newBalloon.dstRect.Y < newPica.dstRect.Y) &&
                     (newKoffing == null))
                 {
@@ -231,9 +248,10 @@ namespace StickMan
                
             }
 
+            //Hit Koffing
             if (newKoffing != null)
             {
-                if ((newKoffing.dstRect.X >= 201 - game.speed) && (newKoffing.dstRect.X <= 200) && (stickMan.dstRect.Y == 430) && newKoffing.dstRect.Y == 435)
+                if ((newKoffing.dstRect.X >= 201 - game.speed) && (newKoffing.dstRect.X <= 200) && (stickMan.dstRect.Y == 430 || stickMan.dstRect.Y == 450) && newKoffing.dstRect.Y == 435)
                 {
                     punchInstance.Play();
                     lives--;
@@ -242,6 +260,7 @@ namespace StickMan
                 }
             }
 
+            //Objects scroll to the left
             scrolling1.Update(game);
             scrolling2.Update(game);
             newGengar.Update(game);
@@ -259,6 +278,7 @@ namespace StickMan
             }
         }
 
+        //Method to generate new object
         private void NewKoffing(int x, int y)
         {
             newKoffing = new Koffing(game.Content.Load<Texture2D>("Animate/koffing2"), new Rectangle(x, y, 80, 74), srcKoffingRec);
@@ -284,6 +304,7 @@ namespace StickMan
             newBalloon = new Balloon(game.Content.Load<Texture2D>("Animate/balloon"), new Rectangle(random, 80, 100, 100), srcBalloonRec);
         }
 
+        //Draw on the canvas
         public void Draw(SpriteBatch spriteBatch)
         {
             scrolling1.Draw(spriteBatch);
